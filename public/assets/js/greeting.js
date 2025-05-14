@@ -24,7 +24,7 @@ function submitName() {
     localStorage.setItem('userName', name);
     updateGreeting(name);
     document.getElementById('namePrompt').classList.add('fade-out');
-    showToast(`Hey, ${name}! Welcome to Waves!`, 'success', 'wave');
+    showToast(`Hey, ${name}! Welcome to Emerald Unblockers!`, 'success', 'wave');
     setTimeout(() => {
         document.getElementById('namePrompt').style.display = 'none';
         document.getElementById('overlay').style.display = 'none';
